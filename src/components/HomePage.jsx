@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Headers from './Headers'
 import Navbar from './Navbar'
 import Banner from './Banner'
@@ -9,11 +9,15 @@ import Appointment from './Appointment'
 import Why from './Why'
 import Testimonial from './Testimonial'
 import Fotter from './Fotter'
+import Loader from './Loader'
 
 export default function HomePage() {
+ const [load,setLoad]= useState(false);
+ setTimeout(()=>
+setLoad(true),3000)
   return (
     <div>
-           <Headers/>
+          {load ? <> <Headers/>
       <Navbar/>
       <Banner/>
       <About/>
@@ -22,7 +26,7 @@ export default function HomePage() {
       <Appointment/>
       <Why/>
       <Testimonial/>
-      <Fotter/>
+      <Fotter/></> :<Loader/>}
       {/* <Laoder/> */}
     </div>
   )

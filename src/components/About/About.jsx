@@ -13,9 +13,9 @@ export default function About() {
   return (
     <div className='bg1 w-[99vw] overflow-hidden h-[100%] flex justify-center items-center z-20 bg-cover relative '>
     <div className='bg-[#f1bbbb77] w-[100%] h-[100%] absolute z-10 '/>
-    <div style={{zIndex:'inherit'}} className='max-w-[1350px] xl:pt-[7em] xl:pb-[12em] py-[3em] px-[4%]   w-[100%] h-[100%] items-center xl:flex flex-col xl:justify-between '>
-    <motion.div variants={{once:true}} initial={{opacity:0,x:200}} whileInView={{opacity:1,x:0,transition:{duration:0.6,type:'tween'}}} className='  relative flex items-center justify-center'> 
-          <div className='w-[80%] ml-[5%]'> 
+    <div style={{zIndex:'inherit'}} className='max-w-[1350px] xl:pt-[7em] xl:pb-[12em] py-[3em] px-[4%]   w-[100%] h-[100%] items-center xl:flex max-xl:flex-col xl:justify-between '>
+    <motion.div variants={{once:true}} initial={{opacity:0,x:200}} whileInView={{opacity:1,x:0,transition:{duration:0.6,type:'tween'}}} className='  relative flex xl:hidden items-center justify-center'> 
+          <div className='w-[80%] ml-[5%] '> 
 
           <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-4.jpg" alt="" className='w-[100%] h-[100%] rounded-lg' />
           </div>

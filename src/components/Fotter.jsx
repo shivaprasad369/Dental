@@ -32,7 +32,7 @@ export default function Fotter() {
           </div>
         </div>
 
-            <div className="xl:flex flex-col max-xl:mt-[2rem] gap-10 xl:justify-center xl:w-[33%]">
+            <div className="xl:flex max-xl:flex-col max-xl:mt-[2rem] gap-10 xl:justify-center xl:w-[33%]">
                 <div className="flex flex-col gap-3">
 
                     <h1 className="text-[1.5em] text-[#F01A22] font-bold">Quick Links</h1>

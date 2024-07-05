@@ -38,7 +38,7 @@ export default function Testimonial() {
               sx={{ border: "white", paddingTop: "10px" }}
               className="my-6"
             />
-            <div className="md:flex flex-col max-md:gap-5 gap-3 items-center">
+            <div className="md:flex max-md:flex-col max-md:gap-5 gap-3 items-center">
               <img
                 src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Testimonial-Image-2.jpg"
                 width={60}

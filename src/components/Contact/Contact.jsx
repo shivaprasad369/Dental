@@ -5,13 +5,13 @@ export default function Contact() {
     <div className='bg1 w-[99vw] overflow-hidden h-[100%]  flex justify-center items-center z-20 bg-cover relative '>
     <div className='bg-[#f1bbbb77] w-[100%] h-[100%] absolute z-10 '/>
 <div style={{zIndex:'inherit'}} className='max-w-[1350px] xl:pt-[7em] xl:pb-[12em] py-[3em] px-[4%]   w-[100%] h-[100%] items-center flex justify-between '>
-        <div className='w-[100%] xl:flex flex-col gap-10 justify-between items-center'>
+        <div className='w-[100%] xl:flex max-xl:flex-col gap-10 justify-between items-center'>
             <div className='xl:w-[43%] text-white flex flex-col gap-3 bg-[#960101] rounded-xl h-[100%] p-[2rem]'>
                 <h1 className='text-[1.4em] font-semibold tracking-wider'>Contact Information</h1>
                 <p className='text-[1.1em]  tracking-wider'>
                 Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
                 </p>
-                <div className="md:flex flex-col  gap-5 mt-4 items-center">
+                <div className="md:flex max-md:flex-col  gap-5 mt-4 md:items-center">
                     <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Contact-Icon-5.png" alt="" 
                     className='w-[4rem]'
                     />
@@ -27,7 +27,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="md:flex flex-col gap-5 mt-4 items-center">
+                <div className="md:flex max-md:flex-col gap-5 mt-4 items-center">
                     <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Contact-Icon-7.png" alt="" 
                     className='w-[4rem]'
                     />
@@ -43,7 +43,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="md:flex flex-col gap-5 mt-4 items-center">
+                <div className="md:flex max-md:flex-col gap-5 mt-4 items-center">
                     <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Contact-Icon-8.png" alt="" 
                     className='w-[4rem]'
                     />
@@ -60,7 +60,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="md:flex flex-col gap-5 mt-4 items-center">
+                <div className="md:flex max-md:flex-col gap-5 mt-4 items-center">
                     <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Contact-Icon-6.png" alt="" 
                     className='w-[4rem]'
                     />
