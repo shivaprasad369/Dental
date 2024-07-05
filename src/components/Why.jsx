@@ -16,7 +16,16 @@ export default function Why() {
         className="w-[100%] h-[100%] xl:flex max-xl:flex-col gap-10 py-[3em] md:py-[7em]  px-[5%]"
         style={{ zIndex: "inherit" }}
       >
-        <motion.div variants={{once:true}} initial={{opacity:0,x:-200}} whileInView={{opacity:1,x:0,transition:{duration:0.6,type:'tween'}}} className="xl:w-[50%] h-[100%]  relative">
+        <motion.div
+          variants={{ once: true }}
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+            transition: { duration: 0.6, type: "tween" },
+          }}
+          className="xl:w-[50%] h-[100%]  relative"
+        >
           <img
             src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Why-Choose-Us-Image.jpg"
             alt=""
@@ -110,13 +119,19 @@ export default function Why() {
         </motion.div>
 
         <div className="xl:w-[50%] max-md:mt-[10rem] max-xl:mt-[8rem]">
-          <div className="flex flex-col gap-5"> 
-            <h1 className="text-[1.2em] tracking-widest font-bold text-[#F01A22]">WHY CHOOSE US</h1>
-            <h1 className="text-[#252525] md:text-[3rem] text-[2.5rem] font-[700] leading-[3rem] md:leading-[1.2em]">Dedicated to Quality Healthcare</h1>
+          <div className="flex flex-col gap-5">
+            <h1 className="text-[1.2em] tracking-widest font-bold text-[#F01A22]">
+              WHY CHOOSE US
+            </h1>
+            <h1 className="text-[#252525] md:text-[3rem] text-[2.5rem] font-[700] leading-[3rem] md:leading-[1.2em]">
+              Dedicated to Quality Dental care
+            </h1>
             <p className="text-[1.1em] tracking-wider text-slate-500 leading-[1.5em]">
-            Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Fusce vitae commodo ipsum, eu ullam corper magna. Nam non posuere lacus.
+              Tooth Place in Hubli has been a trusted name in dental care for
+              over 28 years. Our longstanding commitment to excellence ensures
+              that you receive the best treatment possible.
             </p>
-            <CustomizedAccordions/>
+            <CustomizedAccordions />
           </div>
         </div>
       </div>

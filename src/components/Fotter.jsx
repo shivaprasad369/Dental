@@ -1,9 +1,9 @@
 import { Divider } from "@nextui-org/react";
 import React from "react";
 import { FaChevronRight, FaInstagramSquare } from "react-icons/fa";
-import { FaFacebook, FaXTwitter } from "react-icons/fa6";
+import {  FaGoogle } from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
-import { IoLogoPinterest } from "react-icons/io";
+
 import { MdAddLocationAlt, MdOutlineAttachEmail } from "react-icons/md";
 
 export default function Fotter() {
@@ -13,22 +13,27 @@ export default function Fotter() {
         <div className="flex gap-3 flex-col xl:w-[33%]">
           <h1 className="text-[#252525] font-[700] text-[3rem]"> <img src={require('../Assets/LOGO.png')} alt=""  className='h-[3rem] object-cover'/></h1>
           <p className="text-[1.1em] text-[#252525] font-semibold tracking-wider">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit el
-            tellus, luctus nec ullamcorper mattiso amatug.
+          Tooth Place, Hubli - Your Trusted Dental Care Provider
+Providing Quality Dental Care for Over 28 Years
           </p>
           <div className="flex gap-2">
             <span className="w-[2.3rem] h-[2.3rem] items-center flex justify-center bg-[#F01A22] rounded-full">
-              <FaFacebook className="text-white text-[1rem]" />
+             <a href="https://g.co/kgs/3G6h1vt">
+             <FaGoogle  className="text-white text-[1rem]" />
+             </a> 
             </span>
-            <span className="w-[2.3rem] h-[2.3rem] items-center flex justify-center bg-[#F01A22] rounded-full">
+            {/* <span className="w-[2.3rem] h-[2.3rem] items-center flex justify-center bg-[#F01A22] rounded-full">
               <FaXTwitter className="text-white text-[1rem]" />
-            </span>
+            </span> */}
             <span className="w-[2.3rem] h-[2.3rem] items-center flex justify-center bg-[#F01A22] rounded-full">
+             <a href="https://www.instagram.com/the_tooth__place?igsh=bTF3c2dmbXZ0dzZy">
+             
               <FaInstagramSquare  className="text-white text-[1rem]" />
+             </a>
             </span>
-            <span className="w-[2.3rem] h-[2.3rem] items-center flex justify-center bg-[#F01A22] rounded-full">
+            {/* <span className="w-[2.3rem] h-[2.3rem] items-center flex justify-center bg-[#F01A22] rounded-full">
               <IoLogoPinterest className="text-white text-[1rem]" />
-            </span>
+            </span> */}
           </div>
         </div>
 
@@ -71,21 +76,25 @@ export default function Fotter() {
                 <FiPhoneCall className="text-[3rem] text-[#c80000] " />
                 <div className="flex flex-col text-[1.2em] font-bold text-[#252525]">
                     <h1>Phone</h1>
-                    <h1>1234-567-890</h1>
+                    <h1>+91 81972 87628</h1>
                 </div>
                 </div>
                 <div className="flex gap-3 items-center">
                 <MdOutlineAttachEmail className="text-[3rem] text-[#c80000] " />
                 <div className="flex flex-col text-[1.2em] font-bold text-[#252525]">
                     <h1>Email</h1>
-                    <h1>hello@domainsite.com</h1>
+                    <div className="flex flex-col">
+
+                    <h1>drganeshkar@gmail.com. </h1>
+                    <h1>thetoothplacehubli@gmail.com</h1>
+                    </div>
                 </div>
                 </div>
                 <div className="flex gap-3 items-center">
                 <MdAddLocationAlt className="text-[3rem] text-[#c80000] " />
                 <div className="flex flex-col text-[1.2em] font-bold text-[#252525]">
                     <h1>Location</h1>
-                    <h1>KLLG st, No.99, Pku City, ID 28289</h1>
+                    <h1>Maratha Galli, New Hubli, Hubballi, Karnataka 580020.</h1>
                 </div>
                 </div>
 

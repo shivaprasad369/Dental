@@ -36,28 +36,28 @@ export default function About() {
         </motion.div>
         <div className='flex flex-col gap-5 xl:w-[53%] max-xl:mt-[8rem] '>
           <h1 className='text-[1.2em] text-[#d13f3f] tracking-wider font-bold'>ABOUT US</h1>
-          <p className='xl:text-[3.1rem] text-[2.5rem] leading-[3rem] tracking-wide text-[#252525] xl:leading-[1.3em] font-[700]'>Providing Exceptional<br/> Healthcare for All</p>
-          <p className='text-[1.2rem] text-slate-600 tracking-wider'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Fusce vitae commodo ipsum, eu ullam corper magna. Nam non posuere lacus, eget viverra massa. Sed magna ligula, lacinia sit amet bibendum eu, porta nec ante.</p>
+          <p className='xl:text-[3.1rem] text-[2.5rem] leading-[3rem] tracking-wide text-[#252525] xl:leading-[1.3em] font-[700]'>Providing Exceptional<br/>dental care for All</p>
+          <p className='text-[1.2rem] text-slate-600 tracking-wider'>Tooth Place Clinic has been dedicated to providing top-notch dental services for 28 years. Our team of experienced professionals ensures that every patient receives personalized and comprehensive care in a welcoming environment.</p>
           <div className=' md:flex flex-col gap-10'>
             <div className='flex max-md:mb-[1rem] flex-col'>
                 <h1 className='text-[1.5em] font-semibold tracking-wider'>Our Vision</h1>
-                <p className='text-[1.1em] text-slate-600 tracking-wider'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus.</p>
+                <p className='text-[1.1em] text-slate-600 tracking-wider'>To transform dental health with innovative and compassionate care, ensuring every smile is healthy and confident.</p>
             </div>
             <div >
             <h1 className='text-[1.5em] font-semibold tracking-wider'>Our Mission</h1>
-            <p className='text-[1.1em] text-slate-600 tracking-wider'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus.</p>
+            <p className='text-[1.1em] text-slate-600 tracking-wider'>To deliver superior dental services through a commitment to excellence, continuous learning, and a patient-centered approach.</p>
             </div>
 
           </div>
           <div className='border-b-[1px] my-5 border-[#252525]'/>
           <div className='md:flex flex-col  gap-5 mt-3'>
             <div className='flex flex-col max-md:mb-3 gap-3'>
-              <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Disease Prevention</h1></span>
+              <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Preventive Care</h1></span>
               <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Early Diagnosis & Treatment</h1></span>
             </div>
             <div className='flex flex-col gap-3'>
-              <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Improved Quality of Life</h1></span>
-              <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Emergency Care & Trauma Services</h1></span>
+              <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Enhanced Quality of Life</h1></span>
+              <span className='flex gap-3 items-center'><IoIosCheckmarkCircle className='text-[#d13f3f] text-[1.6rem]'/><h1 className='text-[1.2rem] font-semibold tracking-wide text-[#252525]'>Emergency Dental Services</h1></span>
             </div>
           </div>
           

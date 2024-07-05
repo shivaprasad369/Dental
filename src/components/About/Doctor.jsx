@@ -15,15 +15,14 @@ export default function Doctor() {
         Our Dedicated Doctors
         </h1>
         <p className="text-[1.2em] text-center text-slate-500">
-          Fusce vitae commodo ipsum, eu ullam corper magna. Nam non posuere
-          lacus,
-          <br /> eget viverra massa. Sed magna ligula, lacinia sit amet.
+        Tooth Place Clinic is proud to have a team of highly skilled and compassionate dental professionals.
+          <br />Each member of our team brings years of experience and a commitment to providing exceptional dental care to our patients..
         </p>
       </div>
-      <div className="grid  xl:grid-cols-2 max-md:grid-cols-1 max-w-[1350px] w-[100%] items-center overflow-hidden justify-center gap-5 px-[2%] mt-[2rem]">
+      <div className="grid  xl:grid-cols-3 max-md:grid-cols-1 max-w-[1350px] w-[100%] items-center overflow-hidden justify-center gap-5 px-[2%] mt-[2rem]">
         
-        <motion.div className="md:flex max-md:flex-col  gap-5" variants={{once:true}} initial={{opacity:0, x:-200}} whileInView={{opacity:1,x:0,transition:{duration:0.6}}}>
-          <div  className="flex flex-col bg-white border-b-[7px] p-[2rem]  border-[#d3262fa4]  rounded-xl">
+        {/* <motion.div className="md:flex max-md:flex-col  gap-5" variants={{once:true}} initial={{opacity:0, x:-200}} whileInView={{opacity:1,x:0,transition:{duration:0.6}}}> */}
+          <motion.div variants={{once:true}} initial={{opacity:0, x:-200}} whileInView={{opacity:1,x:0,transition:{duration:0.6}}}  className="flex flex-col bg-white border-b-[7px] p-[2rem]  border-[#d3262fa4]  rounded-xl">
           
           <div className="my-7 relative overflow-hidden rounded-xl">
             <img
@@ -46,11 +45,11 @@ export default function Doctor() {
           </div>
           <div className="flex flex-col  items-center justify-center ">
            <h1 className="text-[1.5em] font-bold ">
-           Dr. Emma Stone
+           Dr Sanjay Ganeshkar 
            </h1>
-           <span className="text-[1.2em]  ">General Practitioner</span>
+           <span className="text-[1.2em]  ">Consulting Orthodontist</span>
           </div>
-        </div>
+        </motion.div>
 
 
         <div className="flex flex-col max-md:mt-[1rem] bg-white border-b-[7px] p-[2rem]  border-[#d3262fa4]  rounded-xl">
@@ -75,13 +74,13 @@ export default function Doctor() {
             </motion.div>
           </div>
           <div className="flex flex-col  items-center justify-center ">
-           <h1 className="text-[1.5em] font-bold ">
-           Dr. Emma Stone
+           <h1 className="text-[1.5em] font-bold flex ">
+           Dr Jyoti Ganeshkar 
            </h1>
-           <span className="text-[1.2em]  ">General Practitioner</span>
+           <span className="text-[1.2em]  ">Certified implantologist</span>
           </div>
         </div>
-          </motion.div>
+          {/* </motion.div> */}
           <motion.div className="md:flex max-md:flex-col gap-5" variants={{once:true}} initial={{opacity:0, x:200}} whileInView={{opacity:1,x:0,transition:{duration:0.6}}}>
 
         <div  className="flex flex-col bg-white border-b-[7px] p-[2rem]  border-[#d3262fa4]  rounded-xl">
@@ -107,12 +106,12 @@ export default function Doctor() {
           </div>
           <div className="flex flex-col  items-center justify-center ">
            <h1 className="text-[1.5em] font-bold ">
-           Dr. Emma Stone
+           Dr Hersh Ganeshkar 
            </h1>
-           <span className="text-[1.2em]  ">General Practitioner</span>
+           <span className="text-[1.2em]  ">Dental Surgeon</span>
           </div>
         </div>
-        <div  className="flex flex-col max-md:mt-[1rem] bg-white border-b-[7px] p-[2rem]  border-[#d3262fa4]  rounded-xl">
+        {/* <div  className="flex flex-col max-md:mt-[1rem] bg-white border-b-[7px] p-[2rem]  border-[#d3262fa4]  rounded-xl">
           
           <div className="my-7 relative overflow-hidden rounded-xl">
             <img
@@ -139,7 +138,7 @@ export default function Doctor() {
            </h1>
            <span className="text-[1.2em]  ">General Practitioner</span>
           </div>
-        </div>
+        </div> */}
           </motion.div>
       </div>
      

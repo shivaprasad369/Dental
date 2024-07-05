@@ -18,7 +18,7 @@ export default function Headers() {
                 </div>
                 <div className='flex flex-col '>
                     <h1 className='text-[1.4rem] font-semibold'>Phone</h1>
-                    <h3 className='text-slate-500 text-[1.2rem]'>1234-567-890</h3>
+                    <h3 className='text-slate-500 text-[1.2rem]'>+918197287628</h3>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ export default function Headers() {
                 </div>
                 <div className='flex flex-col ga-3'>
                     <h1 className='text-[1.4rem] font-semibold'> Email</h1>
-                    <h3 className='text-slate-500 text-[1.2rem]'>hello@domainsite.com</h3>
+                    <h3 className='text-slate-500 text-[1.2rem]'>thetoothplacehubli@gmail.com</h3>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@ export default function Headers() {
                 </div>
                 <div className='flex flex-col ga-3'>
                     <h1 className='text-[1.4rem] font-semibold'>Location</h1>
-                    <h3 className='text-slate-500 text-[1.2rem]'>KLLG st, No.99, Pku City, ID 28289</h3>
+                    <h3 className='text-slate-500 text-[1.2rem]'>Maratha Galli, New Hubli, Hubballi, Karnataka 580020.</h3>
                 </div>
             </div>
             
