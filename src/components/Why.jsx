@@ -27,7 +27,7 @@ export default function Why() {
           className="xl:w-[50%] h-[100%]  relative"
         >
           <img
-            src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Why-Choose-Us-Image.jpg"
+            src={require('../Assets/faq.jpg')}
             alt=""
             className="w-[80%] object-cover rounded-xl ml-[8%]"
           />

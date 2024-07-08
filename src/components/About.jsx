@@ -30,7 +30,7 @@ export default function About() {
           >
             <div className="w-[80%]">
               <img
-                src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-1.jpg"
+                src={require('../Assets/about.jpg')}
                 alt=""
                 className="w-[100%] h-[100%] rounded-lg"
               />
@@ -50,7 +50,7 @@ export default function About() {
             </div>
             <div className="absolute md:right-[-1rem] sm:right-0 right-[-1rem] md:bottom-[-1rem] max-md:w-[40%] w-[45%] bottom-[-1rem] max-md:border-[0.4rem] border-[0.7rem] rounded-lg border-[#f3d3d3]">
               <img
-                src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-2.jpg"
+                src={require('../Assets/SquarePic.jpg')}
                 alt=""
                 className="rounded-lg"
               />
@@ -139,11 +139,11 @@ export default function About() {
             x: 0,
             transition: { duration: 0.6, type: "tween" },
           }}
-          className="max-xl:w-[40%] relative flex max-xl:hidden items-center justify-center"
+          className="xl:w-[40%]  relative flex max-xl:hidden items-center justify-center"
         >
           <div className="w-[90%]">
             <img
-              src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-1.jpg"
+              src={require('../Assets/about.jpg')}
               alt=""
               className="w-[100%] h-[100%] rounded-lg"
             />
@@ -163,7 +163,7 @@ export default function About() {
           </div>
           <div className="absolute right-[-2.5rem] w-[50%] bottom-[-3.5rem] border-[0.7rem] rounded-lg border-[#f3d3d3]">
             <img
-              src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-2.jpg"
+              src={require('../Assets/SquarePic.jpg')}
               alt=""
               className="rounded-lg"
             />

@@ -17,7 +17,7 @@ export default function About() {
     <motion.div variants={{once:true}} initial={{opacity:0,x:200}} whileInView={{opacity:1,x:0,transition:{duration:0.6,type:'tween'}}} className='  relative flex xl:hidden items-center justify-center'> 
           <div className='w-[80%] ml-[5%] '> 
 
-          <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-4.jpg" alt="" className='w-[100%] h-[100%] rounded-lg' />
+          <img src={require('../../Assets/AboutPage.jpg')} alt="" className='w-[100%] h-[100%] rounded-lg' />
           </div>
           {/* <div className='w-[90%] flex gap-5 px-[1rem] text-white bg-[#019096] py-[2.5rem] rounded-lg rounded-bl-[70px] absolute bottom-[-5.5rem] left-[-2.5rem]'> 
               <span className='text-[4.3rem] mt-2 leading-[3rem] font-bold flex flex-col items-center'><CountUp end={25} enableScrollSpy /> <h1 className='text-[1.3rem] uppercase tracking-wider leading-[2.4rem]'>YEARS</h1> </span>
@@ -25,7 +25,7 @@ export default function About() {
               <div className='text-[1.2rem]   font-semibold tracking-wider pr-[1rem]'> Already <br /> Experienced In The <br /> World of Health</div>
           </div> */}
         <div className='absolute left-[0rem] w-[60%] bottom-[-5.5rem] border-[0rem] rounded-lg border-[#a9dad7f5]'>
-          <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-5.jpg" alt="" className='rounded-lg'  />
+          <img src={require('../../Assets/about1.jpg')} alt="" className='rounded-lg'  />
         </div>
         <div className='absolute flex items-center justify-center w-[100%] h-[100%] '>
             <span className='text-white text-[1.5rem] w-[4rem] h-[4rem] bg-[#a73b3be5] rounded-full flex items-center justify-center'>
@@ -81,7 +81,7 @@ export default function About() {
         <motion.div variants={{once:true}} initial={{opacity:0,x:200}} whileInView={{opacity:1,x:0,transition:{duration:0.6,type:'tween'}}} className='w-[40%] max-xl:hidden relative flex items-center justify-center'> 
           <div className='w-[90%] ml-[5%]'> 
 
-          <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-4.jpg" alt="" className='w-[100%] h-[100%] rounded-lg' />
+          <img src={require('../../Assets/AboutPage.jpg')}  alt="" className='w-[100%] h-[100%] rounded-lg' />
           </div>
           {/* <div className='w-[90%] flex gap-5 px-[1rem] text-white bg-[#019096] py-[2.5rem] rounded-lg rounded-bl-[70px] absolute bottom-[-5.5rem] left-[-2.5rem]'> 
               <span className='text-[4.3rem] mt-2 leading-[3rem] font-bold flex flex-col items-center'><CountUp end={25} enableScrollSpy /> <h1 className='text-[1.3rem] uppercase tracking-wider leading-[2.4rem]'>YEARS</h1> </span>
@@ -89,7 +89,7 @@ export default function About() {
               <div className='text-[1.2rem]   font-semibold tracking-wider pr-[1rem]'> Already <br /> Experienced In The <br /> World of Health</div>
           </div> */}
         <div className='absolute left-[-2.5rem] w-[60%] bottom-[-3.5rem] border-[0rem] rounded-lg border-[#a9dad7f5]'>
-          <img src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/About-Us-Image-5.jpg" alt="" className='rounded-lg'  />
+          <img src={require('../../Assets/about1.jpg')}  alt="" className='rounded-lg'  />
         </div>
         <div className='absolute flex items-center justify-center w-[100%] h-[100%] '>
             <span className='text-white text-[1.5rem] w-[4rem] h-[4rem] bg-[#a73b3be5] rounded-full flex items-center justify-center'>

@@ -26,7 +26,7 @@ export default function Doctor() {
           
           <div className="my-7 relative overflow-hidden rounded-xl">
             <img
-              src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Doctor-1.jpg"
+              src={require('../../Assets/d1.jpg')}
               alt=""
               className="w-[100%] z-10 object-cover "
             />
@@ -56,7 +56,7 @@ export default function Doctor() {
           
           <div className="my-7 relative overflow-hidden rounded-xl">
             <img
-              src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Doctor-1.jpg"
+              src={require('../../Assets/d3.jpg')}
               alt=""
               className="w-[100%] z-10 object-cover "
             />
@@ -87,7 +87,7 @@ export default function Doctor() {
           
           <div className="my-7 relative overflow-hidden rounded-xl">
             <img
-              src="https://gtkit.rometheme.pro/glinic/wp-content/uploads/sites/51/2024/06/Doctor-1.jpg"
+              src={require('../../Assets/d2.jpg')}
               alt=""
               className="w-[100%] z-10 object-cover "
             />

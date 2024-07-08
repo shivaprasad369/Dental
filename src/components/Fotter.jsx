@@ -10,7 +10,7 @@ export default function Fotter() {
   return (
     <div className="bg-[#fdfdfdfb] md:pt-[6em] pt-[3em] w-[100vw] h-[100%] px-[5%]">
       <div className="xl:pb-[6em] pb-[3em] xl:flex max-md:flex-col justify-around">
-        <div className="flex gap-3 flex-col xl:w-[33%]">
+        <div className="flex gap-3 flex-col xl:w-[30%]">
           <h1 className="text-[#252525] font-[700] text-[3rem]"> <img src={require('../Assets/LOGO.png')} alt=""  className='h-[3rem] object-cover'/></h1>
           <p className="text-[1.1em] text-[#252525] font-semibold tracking-wider">
           Tooth Place, Hubli - Your Trusted Dental Care Provider
